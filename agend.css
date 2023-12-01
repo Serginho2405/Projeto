@@ -1,54 +1,76 @@
-/* Estilos simples para a página */
 body {
-    font-family: 'Libre Caslon Text', serif;
-    color: aliceblue;
-    margin: 0;
-    padding: 20px;
-    background-color: #ffe4c4;
-    ;
-  }
-  
-  h1 {
-    text-align: center;
-    color: black;
-  }
-  
-  form {
-    max-width: 300px;
-    margin: 0 auto;
-    color: black
-  }
-  
-  label,
-  input[type="text"],
-  input[type="date"],
-  input[type="time"],
-  input[type="submit"] {
-    display: block;
-    margin-bottom: 10px;
-    width: 100%;
-  } 
-  
-  button {
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  background-color: #ffe4c4;
+}
 
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
-  #appointmentList {
-    margin-top: 20px;
-  }
-  
-  #appointmentList h2 {
-    margin-bottom: 10px;
-  }
-  
-  #appointmentList p {
-    margin: 5px 0;
-  }
-  
+h1 {
+  margin-top: 100px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  min-height: 480px;
+  text-align: center;
+}
+
+
+#appointmentForm {
+  width: 300px;
+  margin-bottom: 150px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding: 5px;
+  display: block  ;
+}
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#appointmentList {
+  margin-top: 20px;
+}
+
+#appointmentList h2 {
+  margin-bottom: 10px;
+}
+
+#appointmentList p {
+  margin: 5px 0;
+}
