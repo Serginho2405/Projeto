@@ -4,7 +4,7 @@ body {
   display: grid;
   height: 100vh;
   place-items: center;
-  background-color: #ffe4c4;
+  background-color: #fff;
 }
 
 .container {
@@ -30,8 +30,6 @@ body {
   border-radius: 15px;
 }
 
-
-/* Adicionando bordas arredondadas e ajustando o layout dos campos de entrada */
 
 form input {
     width: 100%;
