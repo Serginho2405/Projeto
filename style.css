@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: bisque;
+    background-color: fff;
 }
 
 .availability-container {
@@ -27,6 +27,7 @@ th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
+    color:#4DA8A0;
 }
 
 th {
