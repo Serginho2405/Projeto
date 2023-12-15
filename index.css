@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#título{
+    font-family: 'Libre Caslon Text', serif;
+    color: #ffff;
+    margin-left: 7%;
+}
+
+#subtítulo{
+    font-family: 'Libre Caslon Text', serif;
+    color: #ffff;
+    margin-left: 3%;
+}
+
+body{
+    background-color:#01756d;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 1em;
+    color: #ffff;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+textarea, button{
+    border-radius: 5px;
+}
+
+.compo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: #ffff;
+    display: block;
+}
+
+.campo textarea{
+    padding: 0.2em;
+    border: 1px solid #01756d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    
+}
+
+
+.botão{
+    font-size: 1.2em;
+    background: #01756d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botão:hover{
+    background:beige
+    box-shadow inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+
+}
